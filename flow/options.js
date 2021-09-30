@@ -40,6 +40,7 @@ declare type ComponentOptions = {
   beforeUpdate?: Function;
   updated?: Function;
   activated?: Function;
+  beforeDeactivate?: Function;
   deactivated?: Function;
   beforeDestroy?: Function;
   destroyed?: Function;
